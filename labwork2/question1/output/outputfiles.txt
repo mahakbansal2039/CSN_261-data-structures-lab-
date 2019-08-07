@@ -1,0 +1,6 @@
+mSpal
+tee s
+cta s
+e\02\0
+nc-s2
+\06\01\0
