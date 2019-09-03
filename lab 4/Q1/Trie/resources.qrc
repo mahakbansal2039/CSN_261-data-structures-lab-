@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Resources/L4_P1_input.csv</file>
+    </qresource>
+</RCC>

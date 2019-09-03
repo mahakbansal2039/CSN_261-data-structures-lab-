@@ -22,9 +22,9 @@ Green[i]=(int*)malloc(sizeof(int)*1268);
 int **Blue=(int**)malloc(sizeof(int*)*953);
 for(int i=0;i<953;i++)
 Blue[i]=(int*)malloc(sizeof(int)*1268);
-FILE *fp1 = fopen("/home/mahak/Desktop/Q3_ip_Blue.dat","r");
-FILE *fp2 = fopen("/home/mahak/Desktop/Q3_ip_Red.dat","r");
-FILE *fp3 = fopen("/home/mahak/Desktop/Q3_ip_Green.dat","r");
+FILE *fp1 = fopen("/home/mahak/Desktop/CSN_261-data-structures-lab-/labwork 1/Q3_Input/Q3_ip_Blue.dat","r");
+FILE *fp2 = fopen("/home/mahak/Desktop/CSN_261-data-structures-lab-/labwork 1/Q3_Input/Q3_ip_Red.dat","r");
+FILE *fp3 = fopen("/home/mahak/Desktop/CSN_261-data-structures-lab-/labwork 1/Q3_Input/Q3_ip_Green.dat","r");
 
    char buffer[6000] ;   
   int i=0;
@@ -108,16 +108,16 @@ int choice;
 printf("enter the values of coordinates x and y :");
 scanf("%d%d",&x,&y);
 pixelvalue(red,Blue,Green,x,y);
-FILE *filep1=fopen("/home/mahak/Desktop/output/finalred.dat","w");
-FILE *filep2=fopen("/home/mahak/Desktop/output/finalblue.dat","w");
-FILE *filep3=fopen("/home/mahak/Desktop/output/finalgreen.dat","w");
+FILE *filep1=fopen("/home/mahak/Desktop/CSN_261-data-structures-lab-/labwork 1/Q3_output/Q3_op_blue.dat","w");
+FILE *filep2=fopen("/home/mahak/Desktop/CSN_261-data-structures-lab-/labwork 1/Q3_output/Q3_op_Green.dat","w");
+FILE *filep3=fopen("/home/mahak/Desktop/CSN_261-data-structures-lab-/labwork 1/Q3_output/Q3_op_Red.dat","w");
         for(int i=0;i<953;i++)
         {
             for(int j=0;j<1268;j++)
             {
-          fprintf(filep1,"%d,",red[i][j]);
-           fprintf(filep2,"%d,",Green[i][j]);
-            fprintf(filep3,"%d,",Blue[i][j]);
+          fprintf(filep1,"%d",red[i][j]);
+           fprintf(filep2,"%d",Green[i][j]);
+            fprintf(filep3,"%d",Blue[i][j]);
 
 
             }

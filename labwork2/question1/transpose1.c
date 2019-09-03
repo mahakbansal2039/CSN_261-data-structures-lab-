@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-void encryption(char **output,char **intput,int n,int a,int b,int r,FILE* fp2)
+void encryption(char **output,char **input,int n,int a,int b,int r,FILE* fp2)
 {
 		for(int i=0;i<r;i++)
 		{

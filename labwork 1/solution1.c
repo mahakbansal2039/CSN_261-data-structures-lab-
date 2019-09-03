@@ -113,7 +113,7 @@ for(int i=0;i<13;i++)
 }
 struct node student;
 
-FILE *fp=fopen("/home/mahak/Desktop/CSN_261-data-structures-lab-/Student.csv","r");
+FILE *fp=fopen("/home/mahak/Desktop/CSN_261-data-structures-lab-/labwork 1/Student.csv","r");
 char **name=(char**)malloc(sizeof(char*) *13);
 char **add=(char**)malloc(sizeof(char*)*13);
 char **dateofb=(char**)malloc(sizeof(char*)*13);

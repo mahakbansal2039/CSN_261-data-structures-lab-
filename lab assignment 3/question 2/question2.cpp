@@ -108,23 +108,6 @@ else
 	}
 }
 
-// while(s--)
-// {
-// 	node* new_node=new node;
-// 	node *tmp=xorarray->head;
-// 	while(tmp->next!=NULL)
-// 		tmp=tmp->next;
-// 	tmp->next=new_node;
-// 	new_node->prev=tmp;
-// new_node->key=(new_node->prev->key)^(h->key);
-// h=h->next;
-// xorarray->size++;
-
-
-
-
-// }
-
 }
 int index(linkedlist* list,int i,int j)
 {
